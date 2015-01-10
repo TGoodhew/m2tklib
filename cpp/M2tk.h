@@ -24,7 +24,7 @@
 #ifndef _M2TK_H
 #define _M2TK_H
 
-#include "m2.h"
+#include "..\src\m2.h"
 
 class M2tk
 {

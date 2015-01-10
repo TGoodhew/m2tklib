@@ -23,7 +23,7 @@
 
 */
 
-#include "m2.h"
+#include "..\..\src\m2.h"
 #include "m2ghu8g.h"
 
 /*
@@ -350,7 +350,7 @@ uint8_t m2_gh_u8g_base(m2_gfx_arg_p  arg)
       	y -= arg->y;
 	y -= arg->h;
 	y++;			/* 13 Jan 2013: Issue 95 */
-      	u8g_DrawXBMP(m2_u8g_dev_variables.m2_u8g, x, y, arg->w, arg->h, (const char *)arg->s);
+      	u8g_DrawXBMP(m2_u8g_dev_variables.m2_u8g, x, y, arg->w, arg->h, (const u8g_pgm_uint8_t *)arg->s);
       }
   }
 

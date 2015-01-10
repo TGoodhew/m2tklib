@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\m2tklib">
+      <UniqueIdentifier>{4570ad12-9caa-4e4f-8329-ae386c09f878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\u8glib">
+      <UniqueIdentifier>{d7253c14-cd47-4ac1-9565-d7bfa963f4e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\m2tklib">
+      <UniqueIdentifier>{dcbabb58-c9d5-4ba4-a09f-71339a393407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\u8glib">
+      <UniqueIdentifier>{d3614d26-5fd5-40de-b83f-363bee4cc542}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\u8glib\csrc\u8g.h">
+      <Filter>Header Files\u8glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\u8glib\cppsrc\U8glib.h">
+      <Filter>Header Files\u8glib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\cpp\M2tk.h">
+      <Filter>Header Files\m2tklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\m2.h">
+      <Filter>Header Files\m2tklib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\csrc\u8g_bitmap.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\csrc\u8g_circle.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\csrc\u8g_clip.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\csrc\u8g_com_api.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\csrc\u8g_com_arduino_common.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\csrc\u8g_com_arduino_hw_spi.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\csrc\u8g_com_arduino_sw_spi.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\csrc\u8g_delay.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\csrc\u8g_dev_st7565_lm6059.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\csrc\u8g_font.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\csrc\u8g_ll_api.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\csrc\u8g_page.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\csrc\u8g_pb.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\csrc\u8g_pb8v1.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\csrc\u8g_pb16v1.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\csrc\u8g_rect.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\csrc\u8g_state.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\cppsrc\U8glib.cpp">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\cpp\M2tk.cpp">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2align.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2dfs.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2draw.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2elfnfmt.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2ellabel.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2ellistbase.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2ellistcalc.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2ellistv.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2elsb.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2elslbase.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2elstr.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2elsubutl.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2fnarg.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2gfx.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2gfxutl.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2ghdummy.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2key.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2navfirst.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2navinit.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2navnext.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2navroot.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2navupdn.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2navutl.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2null.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2obj.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2opt.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2rom.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\m2usrnext.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\eeprom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\Servo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\HardwareSerial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\NetworkSerial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\PulseIn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\DmapSupport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\GalileoPins.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\GpioController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\I2cController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\PCA9685Support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\PCAL9535ASupport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\CY8C9540ASupport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\Spi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\SpiController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\WInterrupt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\arduino.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\LiquidCrystal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\Print.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\Stepper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\Stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)\Source\WString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\dev\u8glib\m2ghu8gbfs.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\dev\u8glib\m2ghu8gutl.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\dev\u8glib\m2ghu8gicon.c">
+      <Filter>Source Files\m2tklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\u8glib\fntsrc\u8g_font_7x13.c">
+      <Filter>Source Files\u8glib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

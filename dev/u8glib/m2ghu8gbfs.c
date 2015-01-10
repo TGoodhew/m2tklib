@@ -27,7 +27,7 @@
 
 */
 
-#include "m2.h"
+#include "..\..\src\m2.h"
 #include "m2ghu8g.h"
 
 /*
