@@ -1,12 +1,23 @@
 // Main.cpp : Defines the entry point for the console application.
 //
 
+// Include files
+//
+// This solution assumes that you have local clone of the u8glib and m2tklib repositories.
+// You will need to add these directories to your Additional Include Directories property
+//
+// u8glib\cppsrc; 
+// m2tklib\dev\u8glib; 
+// u8glib\csrc; 
+// m2tklib\cpp; 
+// m2tklib\src;
+//
 #include "stdafx.h"
 #include "arduino.h"
-#include "..\..\..\..\..\cpp\M2tk.h"
-#include "..\..\..\..\..\dev\u8glib\m2ghu8g.h"
+#include "M2tk.h"
+#include "m2ghu8g.h"
 #include "spi.h"
-#include "..\..\..\..\..\..\u8glib\cppsrc\U8glib.h"
+#include "U8glib.h"
 
 // Temp function defs
 extern "C" uint8_t m2_es_i2c(m2_p ep, uint8_t msg);
