@@ -26,7 +26,7 @@
 #ifndef _M2GHU8G_H
 #define _M2GHU8G_H
 
-#include "..\..\src\m2.h"
+#include "m2.h"
 #include "..\..\..\u8glib\csrc\u8g.h"
 
 #ifdef __cplusplus
