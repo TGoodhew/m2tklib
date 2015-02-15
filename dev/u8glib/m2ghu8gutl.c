@@ -296,8 +296,8 @@ uint8_t m2_gh_u8g_base(m2_gfx_arg_p  arg)
       {
       	uint16_t h, y;
        	h = m2_utl_sb_get_slider_height(arg->h-2, arg->total, arg->visible);
-      	y = m2_utl_sb_get_slider_position(arg->h-2, h, arg->total, arg->visible, arg->top); 	
-      	m2_u8g_draw_box(arg->x+1, arg->y+arg->h-1-h-y, arg->w-2, h);
+		y = m2_utl_sb_get_slider_position(arg->h - 2, (uint8_t)h, arg->total, arg->visible, arg->top);
+		m2_u8g_draw_box(arg->x + 1, arg->y + arg->h - 1 - h - y, arg->w - 2, (uint8_t)h);
       }
       return 1;
     

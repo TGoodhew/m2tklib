@@ -118,7 +118,7 @@ uint8_t m2_utl_sb_get_slider_height(uint8_t height, uint8_t total, uint8_t visib
   tmp = height;
   tmp *= visible;
   tmp /= total;
-  slider = tmp;
+  slider = (uint8_t)tmp;
   if ( slider == 0 )
     slider++;
   /*
@@ -152,5 +152,5 @@ uint8_t m2_utl_sb_get_slider_position(uint8_t height, uint8_t slider, uint8_t to
   pos = top;
   pos *= height;
   pos /= total;
-  return pos;
+  return (uint8_t)pos;
 }

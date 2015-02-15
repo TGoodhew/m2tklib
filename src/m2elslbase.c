@@ -76,7 +76,7 @@ static uint8_t m2_el_slbase_opt_get_eE(m2_rom_char_p str)
       tmp = m2_opt_get_val_zero_default(str, 'E');
       tmp *= m2_gfx_get_display_width();
       tmp >>= 6;
-      val = tmp;
+	  val = (uint8_t)tmp;
     }  
     return val;
 }

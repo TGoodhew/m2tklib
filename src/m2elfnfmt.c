@@ -116,7 +116,7 @@ uint8_t m2_opt_get_hH(m2_rom_char_p str)
       tmp = m2_opt_get_val_zero_default(str, 'H');
       tmp *= m2_gfx_get_display_height();
       tmp >>= 6;
-      val = tmp;
+	  val = (uint8_t)tmp;
     }  
     return val;
 }
@@ -141,7 +141,7 @@ uint8_t m2_opt_get_wW(m2_rom_char_p str)
       tmp = m2_opt_get_val_zero_default(str, 'W');
       tmp *= m2_gfx_get_display_width();
       tmp >>= 6;
-      val = tmp;
+	  val = (uint8_t)tmp;
     }  
     return val;
 }
